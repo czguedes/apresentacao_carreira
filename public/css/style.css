@@ -18,16 +18,9 @@ header {
   border-bottom: 0.4px solid #FFF2E7;
 }
 
-.cabecalho-menu-item {
-  text-shadow: 0 10px 20px #0a0a0afb;
-}
 
-span {
-  color: #2F2325 !important;
-}
-
-.email:hover {
-  text-decoration: underline !important;
+.cabecalho-menu-item:hover {
+  text-shadow: 5px 5px 10px blue;
 }
 
 .conteudo-principal-escrito-titulo {
@@ -57,21 +50,7 @@ span {
 .conteudo-principal-escrito-botao:hover {
   background-color: rgba(236, 214, 196, 0.53);
 }
-
-.conteudo-principal-imagem {
-  border-radius: 80px 0;
-  border: 20px double #8e5d5279;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.315), -0.4em 0 0.9em rgba(80, 49, 42, 0.966);
-
-}
-
 .rodape,
 .conteudo-secundario-titulo {
   border-top: 0.4px solid #FFF2E7;
 }
-
-/* .topo{
-  width: 130px;
-  height: 50px;
-  border-radius: 10px;
-} */

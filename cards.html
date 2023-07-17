@@ -1,3 +1,18 @@
+<style>
+  #myDIV {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    color: white;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    50% {
+      box-shadow: 10px 20px 30px blue;
+    }
+  }
+</style>
 <div class="card mb-3 bg-transparent border-0 shadow">
   <div class="row g-0">
     <div class="col-md-4">
@@ -10,6 +25,13 @@
     <div class="d-flex flex-column col-md-8 row-gap-3">
       <div class="card-body">
         <h5 class="card-title">Caio Feitosa</h5>
+        <h1>Animation of box-shadow</h1>
+
+        <p>Gradually change the box-shadow property:</p>
+        <p></p>
+        <div id="myDIV">
+          <h1>myDIV</h1>
+        </div>
         <p class="card-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ab
           facere reiciendis nihil? Molestiae, voluptates sint voluptatum eius
