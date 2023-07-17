@@ -39,16 +39,19 @@ header {
   align-items: center;
   justify-content: center;
   margin: 10px !important;
+filter: drop-shadow(-8px 5px 14px #000)
 }
 
 .conteudo-principal-icon {
   width: 30px;
   height: 30px;
+  
 
 }
 
 .conteudo-principal-escrito-botao:hover {
   background-color: rgba(236, 214, 196, 0.53);
+  filter: none
 }
 .rodape,
 .conteudo-secundario-titulo {
