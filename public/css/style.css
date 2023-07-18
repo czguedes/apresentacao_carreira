@@ -20,12 +20,17 @@ header {
 
 
 .cabecalho-menu-item:hover {
-  text-shadow: 5px 5px 10px blue;
+  text-shadow:  2px 2px 5px #FF0000, -2px -2px 10px #0000FF;
 }
-
+h4{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
 .conteudo-principal-escrito-titulo {
   font-size: 70px;
 
+}
+small{
+  font-weight: 700;
 }
 
 .conteudo-principal-escrito-botao {
