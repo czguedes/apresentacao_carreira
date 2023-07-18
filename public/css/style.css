@@ -10,14 +10,17 @@
 
 body {
   font-size: 100%;
-  background: #494848;
+  background: #363636;
 }
 
 header {
-  background: #2e2e2e;
+  background: #1c1c1c;
   border-bottom: 0.4px solid #FFF2E7;
 }
-
+.card{
+  background: #13121262 !important;
+  box-shadow:  -5px 4px 10px black ,2px 2px 10px black !important;
+}
 
 .cabecalho-menu-item:hover {
   text-shadow:  2px 2px 5px #FF0000, -2px -2px 10px #0000FF;
